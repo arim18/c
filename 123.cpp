@@ -3,6 +3,7 @@
 int main(){
 	
 	int k=1;
+printf("*********\n");
 
 for(int i=1;i<6;i++){
 	k++;
@@ -10,7 +11,8 @@ for(int i=1;i<6;i++){
 	for(int j=1;j<k;j++){
 		printf("%d",j);
 	}
-printf("\n");
+		printf(" ");
+printf("*\n");	
 }
 printf("*********\n");
 int l=6;
@@ -22,7 +24,7 @@ for(int i=5;0<i;i--){
 		m++;
 		printf("%d",m);
 	}
-printf("\n");
+printf("*\n");
 }
 printf("*********\n");
 
